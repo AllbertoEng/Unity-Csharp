@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637981819636176320
-    m_Hash: 1167625243
+      ticks: 638015267493962967
+    m_Hash: 1729506181
   m_LockFileStatus:
     m_FilePath: C:/Users/Betino/Documents/GitHub/Unity-Csharp/EstudoJogo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637981819637230195
-    m_Hash: 2821262854
+      ticks: 638015267493972934
+    m_Hash: 836669088
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -112,6 +112,7 @@ m_PackageAssets:
         - 5.2.0
         - 5.2.1
         - 5.2.3
+        - 5.2.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -129,12 +130,14 @@ m_PackageAssets:
         - 7.0.5
         - 7.0.6
         - 7.0.7
+        - 7.0.8
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         - 8.0.1
         - 8.0.2
         - 8.0.3
+        - 8.0.4
         - 9.0.0-pre.1
         - 9.0.0-pre.3
         - 9.0.0
@@ -336,6 +339,7 @@ m_PackageAssets:
         - 4.1.3
         - 4.2.0
         - 4.3.0
+        - 4.3.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.1
@@ -351,11 +355,13 @@ m_PackageAssets:
         - 6.0.3
         - 6.0.4
         - 6.0.5
+        - 6.0.6
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
         - 7.0.1
         - 7.0.2
+        - 7.0.3
         - 8.0.0-pre.1
         - 8.0.0-pre.3
         - 8.0.0
@@ -923,6 +929,7 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -964,6 +971,7 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -1068,6 +1076,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -1100,6 +1109,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1369,6 +1379,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
         - 10.6.0
@@ -3932,6 +3943,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
         - 10.6.0
@@ -4087,6 +4099,7 @@ m_PackageAssets:
         - 10.8.1
         - 10.9.0
         - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
         - 10.6.0
