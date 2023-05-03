@@ -25,13 +25,13 @@ public class ItemPanel : MonoBehaviour
 
     private void SetIndex()
     {
-        for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
+        for (int i = 0; i < buttons.Count; i++)
         {
             buttons[i].SetIndex(i);
         }
     }
 
-    public void Show()
+    public virtual void Show()
     {
         for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
