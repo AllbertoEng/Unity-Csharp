@@ -10,7 +10,7 @@ public class InventoryController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Escape))
         {
             panel.SetActive(!panel.activeInHierarchy);
             statusPanel.SetActive(!statusPanel.activeInHierarchy);

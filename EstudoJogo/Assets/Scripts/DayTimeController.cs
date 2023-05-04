@@ -15,7 +15,7 @@ public class DayTimeController : MonoBehaviour
     [SerializeField] Color dayLightColor = Color.white;
 
     float time = 43200;
-    [SerializeField] float timeScale = 60f;
+    [SerializeField] float timeScale = 600f;
 
     [SerializeField] Text text;
     [SerializeField] Light2D globalLight;
