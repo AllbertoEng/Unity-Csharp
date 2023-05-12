@@ -7,10 +7,13 @@ public class CharacterInteractController : MonoBehaviour
 {
     CharacterControler2D characterController;
     Rigidbody2D rgbd2d;
-    [SerializeField] float offsetDistance = 1f,
-                        sizeOfInteractableArea = 0.2f;
+    [SerializeField] float offsetDistance = 0.2f,
+                        sizeOfInteractableArea = 1f;
     Character character;
     [SerializeField] HighlightController highlightController;
+
+    [SerializeField] float delayUse = 0.5f;
+    private float delay = 0f;
 
     private void Awake()
     {
@@ -23,10 +26,17 @@ public class CharacterInteractController : MonoBehaviour
     {
         Check();
 
+        if (delay > 0)
+        {
+            delay -= Time.deltaTime;
+            return;
+        }
+
         if (Input.GetMouseButton(1))
         {
             Interact();
-        }
+            delay = delayUse;
+        }        
     }
 
     private void Check()

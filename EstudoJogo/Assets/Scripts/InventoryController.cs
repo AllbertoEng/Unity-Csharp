@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,9 +13,24 @@ public class InventoryController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.Escape))
         {
-            panel.SetActive(!panel.activeInHierarchy);
-            statusPanel.SetActive(!statusPanel.activeInHierarchy);
-            toolbar.SetActive(!toolbar.activeInHierarchy);
+            if (!panel.activeInHierarchy)
+                Open();
+            else
+                Close();
         }
+    }
+
+    public void Open()
+    {
+        panel.SetActive(true);
+        statusPanel.SetActive(true);
+        toolbar.SetActive(false);
+    }
+
+    public void Close()
+    {
+        panel.SetActive(false);
+        statusPanel.SetActive(false);
+        toolbar.SetActive(true);
     }
 }

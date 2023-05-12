@@ -119,8 +119,9 @@ public class TilemapCropsManager : TimeAgent
 
         if (cropTile.renderer == null)
         {
+
             GameObject go = Instantiate(cropsSpritePrefab, transform);
-            go.transform.position = targetTilemap.CellToWorld(cropTile.position);
+            go.transform.position = targetTilemap.CellToWorld(cropTile.position) + targetTilemap.cellSize / 2;
             go.transform.position -= Vector3.forward * 0.01f;
             go.SetActive(false);
             cropTile.renderer = go.GetComponent<SpriteRenderer>();

@@ -27,4 +27,10 @@ public class ItemToobarPanel : ItemPanel
         currentSelectedTool = id;
         buttons[currentSelectedTool].Highlight(true);
     }
+
+    public override void Show()
+    {
+        base.Show();
+        toolBarController.UpdateHighlightIcon();
+    }
 }

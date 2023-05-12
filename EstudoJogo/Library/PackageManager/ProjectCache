@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638103641456023508
-    m_Hash: 1729506181
+      ticks: 638190034656100735
+    m_Hash: 3123542508
   m_LockFileStatus:
     m_FilePath: C:/Users/Betino/Documents/GitHub/Unity-Csharp/EstudoJogo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638103641456028684
-    m_Hash: 836669088
+      ticks: 638190034656200475
+    m_Hash: 2986734180
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -34,17 +34,130 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.15-preview.1
+        - 1.0.15-preview.2
+        - 1.0.15-preview.3
+        - 1.0.15-preview.4
+        - 1.0.15-preview.5
+        - 1.0.16-preview
+        - 1.0.16-preview.1
+        - 1.0.16-preview.2
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0-preview.3
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.2.0-preview.1
+        - 2.2.0-preview.4
+        - 2.2.0-preview.5
+        - 2.2.1-preview.1
+        - 2.2.1-preview.2
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.8
+        - 3.1.0
+        - 3.1.1
+        - 3.2.1
+        - 3.2.2
+        - 3.2.3
+        - 3.2.4
+        - 3.2.5
+        - 3.2.6
+        - 3.2.9
+        - 3.2.10
+        - 3.2.11
+        - 3.2.13
+        - 3.2.14
+        - 3.2.15
+        - 3.2.16
+        - 3.2.17
+        - 3.2.18
+        - 4.0.0
+        - 4.0.1
+        - 4.1.0
+        - 4.1.1
+        - 4.2.1
+        - 4.2.2
+        - 4.2.3
+        - 4.2.4
+        - 4.2.5
+        - 4.2.6
+        - 4.2.8
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
+        - 5.0.3
+        - 5.0.4
+        - 5.0.5
         - 5.0.6
+        - 5.0.7
+        - 5.0.8
+        - 5.0.9
+        - 5.0.10
+        - 5.1.0
+        - 5.1.1
+        - 5.2.0
+        - 5.2.1
+        - 5.2.3
+        - 5.2.4
+        - 5.2.6
+        - 5.2.7
+        - 6.0.0-pre.1
+        - 6.0.0-pre.2
+        - 6.0.1
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.7
+        - 7.0.0-pre.2
+        - 7.0.0-pre.3
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 7.0.4
+        - 7.0.5
+        - 7.0.6
+        - 7.0.7
+        - 7.0.8
+        - 7.0.9
+        - 7.0.10
+        - 8.0.0-pre.3
+        - 8.0.0-pre.4
+        - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 8.0.3
+        - 8.0.4
+        - 8.0.5
+        - 9.0.0-pre.1
+        - 9.0.0-pre.3
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 10.0.0-pre.1
+        - 10.0.0-pre.2
+        - 10.0.0
         compatible:
         - 5.0.6
-        verified: 5.0.6
+        - 5.0.7
+        - 5.0.8
+        - 5.0.9
+        - 5.0.10
+        verified: 5.0.10
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -86,11 +199,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637594727470000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -128,7 +241,23 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview
+        - 1.0.1-preview
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.1.0
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
         - 4.0.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
+        - 5.0.3
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -151,7 +280,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637328350910000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -173,7 +302,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
@@ -182,10 +311,83 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.1.0-preview.1
+        - 1.1.0-preview.3
+        - 1.2.0-preview.1
+        - 1.2.0-preview.3
+        - 1.2.0-preview.4
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.7
+        - 2.1.0
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.8
+        - 2.1.9
+        - 2.1.10
+        - 2.1.11
+        - 3.0.0
+        - 3.1.1
+        - 3.1.3
+        - 3.1.4
+        - 3.1.5
+        - 3.1.6
+        - 3.1.7
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
         - 4.1.0
+        - 4.1.1
+        - 4.1.2
+        - 4.1.3
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.1
+        - 5.0.3
+        - 5.0.4
+        - 5.0.6
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 6.0.7
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.3
+        - 8.0.0
+        - 8.0.1
+        - 8.0.2
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
         compatible:
         - 4.1.0
-        verified: 4.1.0
+        - 4.1.1
+        - 4.1.2
+        - 4.1.3
+        verified: 4.1.3
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -226,11 +428,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637594727750000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -303,7 +505,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
         based 2D worlds. It comes with intuitive configurator and a highly performant
@@ -312,10 +514,93 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.10-preview.2
+        - 1.0.11-preview
+        - 1.0.12-preview
+        - 1.0.12-preview.1
+        - 1.0.14-preview.2
+        - 2.0.0-preview.4
+        - 2.0.0-preview.5
+        - 2.0.0-preview.7
+        - 2.0.0-preview.8
+        - 2.0.0-preview.9
+        - 2.1.0-preview.2
+        - 2.1.0-preview.6
+        - 2.1.0-preview.7
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 3.0.1
+        - 3.0.2
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
+        - 3.0.10
+        - 3.0.11
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
+        - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
+        - 4.0.3
+        - 4.1.0
+        - 4.1.1
+        - 4.1.2
+        - 4.1.3
+        - 4.1.4
+        - 4.1.5
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
+        - 5.1.0
+        - 5.1.1
+        - 5.1.2
         - 5.1.3
+        - 5.1.4
+        - 5.1.5
+        - 5.1.6
+        - 5.1.7
+        - 5.2.0
+        - 5.3.0
+        - 6.0.0-pre.1
+        - 6.0.0-pre.2
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 7.0.0-pre.2
+        - 7.0.0-pre.3
+        - 7.0.0
+        - 7.0.2
+        - 7.0.3
+        - 7.0.4
+        - 7.0.5
+        - 7.0.6
+        - 7.0.7
+        - 8.0.0-pre.4
+        - 8.0.0-pre.5
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0
+        - 9.0.1
+        - 9.0.2
+        - 10.0.0-pre.1
+        - 10.0.0-pre.2
+        - 10.0.0
         compatible:
         - 5.1.3
-        verified: 5.1.3
+        - 5.1.4
+        - 5.1.5
+        - 5.1.6
+        - 5.1.7
+        verified: 5.1.7
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
@@ -361,11 +646,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637594728080000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -422,6 +707,118 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.2d.tilemap.extras@1.8.4-preview
+      testable: 0
+      isDirectDependency: 1
+      version: 1.8.4-preview
+      source: 1
+      resolvedPath: C:\Users\Betino\Documents\GitHub\Unity-Csharp\EstudoJogo\Library\PackageCache\com.unity.2d.tilemap.extras@1.8.4-preview
+      assetPath: Packages/com.unity.2d.tilemap.extras
+      name: com.unity.2d.tilemap.extras
+      displayName: 2D Tilemap Extras
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: asset
+      description: 2D Tilemap Extras is a package that contains extra scripts for
+        use with 2D Tilemap features in Unity. These include custom Tiles and Brushes
+        for the Tilemap feature.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        - 1.8.2-preview
+        - 1.8.3-preview
+        - 1.8.4-preview
+        - 2.0.0-pre.1
+        - 2.0.0-pre.2
+        - 2.0.0
+        - 2.2.0
+        - 2.2.1
+        - 2.2.2
+        - 2.2.3
+        - 2.2.4
+        - 2.2.5
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.1.0
+        - 4.0.0-pre.1
+        - 4.0.0-pre.2
+        - 4.0.0-pre.3
+        - 4.0.0
+        compatible:
+        - 1.5.0-preview
+        - 1.6.0-preview.1
+        - 1.6.1-preview
+        - 1.6.2-preview
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.7.0-preview
+        - 1.8.0-preview
+        - 1.8.1-preview
+        - 1.8.2-preview
+        - 1.8.3-preview
+        - 1.8.4-preview
+        verified: 
+      dependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.tilemap
+        version: 1.0.0
+      - name: com.unity.modules.physics2d
+        version: 1.0.0
+      - name: com.unity.2d.tilemap
+        version: 1.0.0
+      - name: com.unity.ugui
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      keywords:
+      - 2d
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 638042604340000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/2d-extras.git
+        revision: 070f2b98b550d67f272032f11dae5e7efb19bd1e
         path: 
     - packageId: com.unity.cinemachine@2.6.17
       testable: 0
@@ -511,6 +908,9 @@ m_PackageAssets:
         - 2.9.4
         - 2.9.5
         - 3.0.0-pre.3
+        - 3.0.0-pre.4
+        - 3.0.0-pre.5
+        - 3.0.0-pre.6
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -615,7 +1015,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -624,9 +1024,119 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.2.3-preview
+        - 1.2.4-preview
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.11
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17-preview.3
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.9
+        - 1.5.7
+        - 1.6.0
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
+        - 1.15.1
+        - 1.15.4
+        - 1.15.7
+        - 1.15.9
+        - 1.15.12
+        - 1.15.13
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
+        - 1.15.18
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.17.6
+        - 1.17.7
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.4
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         compatible:
         - 1.7.1
+        - 1.8.0
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
+        - 1.14.1
+        - 1.14.4
+        - 1.14.7
+        - 1.14.9
+        - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
+        - 1.15.1
+        - 1.15.4
+        - 1.15.7
+        - 1.15.9
+        - 1.15.12
+        - 1.15.13
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
+        - 1.15.18
+        - 1.17.0
+        - 1.17.1
+        - 1.17.2
+        - 1.17.6
+        - 1.17.7
+        - 2.0.0-preview.6
+        - 2.0.0-preview.8
+        - 2.0.0-preview.15
+        - 2.0.0-preview.17
+        - 2.0.0-preview.20
+        - 2.0.0-preview.21
+        - 2.0.0-preview.22
+        - 2.0.0
+        - 2.0.1
+        - 2.0.3
+        - 2.0.4
+        - 2.1.0-preview.3
+        - 2.1.0-preview.5
+        - 2.1.0-preview.6
         verified: 1.7.1
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
@@ -656,11 +1166,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637616921650000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -682,7 +1192,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -690,9 +1200,79 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
+        - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
         compatible:
+        - 1.0.2
+        - 1.0.6
+        - 1.0.8
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2-preview
+        - 1.1.2-preview.2
+        - 1.1.3-preview.1
+        - 1.1.4-preview
+        - 1.1.4
+        - 1.2.0-preview
+        - 1.2.1
+        - 2.0.0-preview
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.5
         - 2.0.7
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
+        - 3.0.6
+        - 3.0.7
+        - 3.0.9
+        - 3.0.10
+        - 3.0.12
+        - 3.0.13
+        - 3.0.14
+        - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
+        - 3.0.20
+        - 3.0.21
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -715,11 +1295,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637334461080000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -769,6 +1349,7 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
+        - 2.0.18
         compatible:
         - 1.0.2
         - 1.0.3
@@ -790,7 +1371,8 @@ m_PackageAssets:
         - 2.0.15
         - 2.0.16
         - 2.0.17
-        verified: 2.0.17
+        - 2.0.18
+        verified: 2.0.18
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -838,7 +1420,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -846,10 +1428,34 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
+        - 1.2.4
+        - 1.2.5
         compatible:
+        - 1.0.2
+        - 1.0.3
+        - 1.0.7
+        - 1.1.0
+        - 1.1.2
+        - 1.1.3
+        - 1.1.4
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -861,17 +1467,17 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637394922300000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: 547f63839bdc87e0aed2c9e0d84f8f6336a83ea3
+        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
     - packageId: com.unity.render-pipelines.universal@10.5.1
       testable: 0
@@ -887,7 +1493,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
         Pipeline, made by Unity. URP provides artist-friendly workflows that let
         you quickly and easily create optimized graphics across a range of platforms,
@@ -896,9 +1502,54 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.14
+        - 9.0.0-preview.35
+        - 9.0.0-preview.55
+        - 9.0.0-preview.72
+        - 10.0.0-preview.26
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
         - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
+        - 10.6.0
         verified: 10.5.1
       dependencies:
       - name: com.unity.mathematics
@@ -937,16 +1588,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637605794350000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
+        url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
         path: 
     - packageId: com.unity.test-framework@1.1.27
@@ -963,16 +1614,71 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
       versions:
         all:
+        - 0.0.4-preview
+        - 0.0.29-preview
+        - 1.0.0
+        - 1.0.7
+        - 1.0.9
+        - 1.0.11
+        - 1.0.12
+        - 1.0.13
+        - 1.0.14
+        - 1.0.16
+        - 1.0.17
+        - 1.0.18
+        - 1.1.0
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3
+        - 1.1.5
+        - 1.1.8
+        - 1.1.9
+        - 1.1.11
+        - 1.1.13
+        - 1.1.14
+        - 1.1.16
+        - 1.1.18
+        - 1.1.19
+        - 1.1.20
+        - 1.1.22
+        - 1.1.24
+        - 1.1.26
         - 1.1.27
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 2.0.1-exp.1
+        - 2.0.1-exp.2
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         compatible:
         - 1.1.27
-        verified: 1.1.27
+        - 1.1.29
+        - 1.1.30
+        - 1.1.31
+        - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 2.0.1-exp.1
+        - 2.0.1-exp.2
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
+        verified: 1.1.33
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -998,16 +1704,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637594751620000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
@@ -1024,7 +1730,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1050,9 +1756,98 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.2
+        - 1.0.21
+        - 1.0.23
+        - 1.0.25
+        - 1.0.26
+        - 1.1.0
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.0-preview
+        - 1.3.0
+        - 1.4.0-preview.1b
+        - 1.4.0-preview.2a
+        - 1.4.0-preview.3a
+        - 1.4.0
+        - 1.4.1-preview.1
+        - 1.4.1
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.0-preview.6
+        - 1.5.0-preview.7
+        - 1.5.0-preview.8
+        - 1.5.0-preview.10
+        - 1.5.0-preview.11
+        - 1.5.0-preview.12
+        - 1.5.0-preview.13
+        - 1.5.0-preview.14
+        - 1.5.0
+        - 1.5.1
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.6.0-preview.1
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.1
+        - 2.1.0-preview.1
+        - 2.1.0-preview.2
+        - 2.1.0-preview.3
+        - 2.1.0-preview.4
+        - 2.1.0-preview.5
+        - 2.1.0-preview.7
+        - 2.1.0-preview.8
+        - 2.1.0-preview.10
+        - 2.1.0-preview.11
+        - 2.1.0-preview.12
+        - 2.1.0-preview.13
+        - 2.1.0-preview.14
+        - 2.1.0
+        - 2.1.1
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.2.0-preview.1
+        - 2.2.0-preview.2
+        - 2.2.0-preview.3
+        - 3.0.0-preview.1
+        - 3.0.0-preview.3
+        - 3.0.0-preview.4
+        - 3.0.0-preview.5
+        - 3.0.0-preview.7
+        - 3.0.0-preview.8
+        - 3.0.0-preview.10
+        - 3.0.0-preview.11
+        - 3.0.0-preview.12
+        - 3.0.0-preview.13
+        - 3.0.0-preview.14
+        - 3.0.0
+        - 3.0.1
+        - 3.0.3
+        - 3.0.4
+        - 3.0.5
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
+        - 3.2.0-pre.4
+        - 4.0.0-pre.1
+        - 4.0.0-pre.2
         compatible:
         - 3.0.6
+        - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 3.2.0-pre.3
+        - 3.2.0-pre.4
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -1078,11 +1873,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637547111200000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1104,16 +1899,127 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
       errors: []
       versions:
         all:
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        - 1.2.7
+        - 1.2.9
+        - 1.2.10
+        - 1.2.11
+        - 1.2.12
+        - 1.2.13
+        - 1.2.14
+        - 1.2.15
+        - 1.2.16
+        - 1.2.17
+        - 1.2.18
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.5
+        - 1.4.0-preview.6
+        - 1.4.0-preview.7
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
         compatible:
         - 1.4.8
+        - 1.5.0-pre.2
+        - 1.5.0-preview.1
+        - 1.5.0-preview.2
+        - 1.5.0-preview.3
+        - 1.5.0-preview.4
+        - 1.5.0-preview.5
+        - 1.5.1-pre.1
+        - 1.5.1-pre.2
+        - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6
+        - 1.5.7
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0-pre.5
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.7.0-pre.1
+        - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1147,11 +2053,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637557616100000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -1184,6 +2090,7 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.0
+        - 3.0.0-exp.1
         compatible:
         - 1.0.0
         verified: 1.0.0
@@ -2978,16 +3885,30 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3003,11 +3924,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3036,12 +3957,42 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        verified: 1.2.6
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3058,7 +4009,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3080,7 +4031,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: SRP Core makes it easier to create or customize a Scriptable Render
         Pipeline (SRP). SRP Core contains reusable code, including boilerplate code
         for working with platform-specific graphics APIs, utility functions for common
@@ -3092,9 +4043,107 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.21
+        - 0.1.27
+        - 0.1.28
+        - 1.0.0-beta
+        - 1.0.1-beta
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.8-preview
+        - 1.1.10-preview
+        - 1.1.11-preview
+        - 2.0.1-preview
+        - 2.0.3-preview
+        - 2.0.4-preview
+        - 2.0.4-preview.1
+        - 2.0.5-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 3.0.0-preview
+        - 3.1.0-preview
+        - 3.3.0-preview
+        - 4.0.0-preview
+        - 4.0.1-preview
+        - 4.1.0-preview
+        - 4.2.0-preview
+        - 4.3.0-preview
+        - 4.6.0-preview
+        - 4.8.0-preview
+        - 4.9.0-preview
+        - 4.10.0-preview
+        - 5.0.0-preview
+        - 5.1.0
+        - 5.2.0
+        - 5.2.1
+        - 5.2.2
+        - 5.2.3
+        - 5.3.1
+        - 5.6.1
+        - 5.7.2
+        - 5.8.2
+        - 5.9.0
+        - 5.10.0
+        - 5.13.0
+        - 5.16.1
+        - 6.5.2
+        - 6.5.3
+        - 6.7.1
+        - 6.9.0
+        - 6.9.1
+        - 6.9.2
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.13
+        - 9.0.0-preview.35
+        - 9.0.0-preview.38
+        - 9.0.0-preview.60
+        - 9.0.0-preview.77
+        - 10.0.0-preview.30
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
         - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
+        - 10.6.0
         verified: 10.5.1
       dependencies:
       - name: com.unity.ugui
@@ -3115,16 +4164,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637605791650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
+        url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
         path: 
     - packageId: com.unity.shadergraph@10.5.1
@@ -3141,7 +4190,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The Shader Graph package adds a visual Shader editing tool to
         Unity. You can use this tool to create Shaders in a visual way instead of
         writing code. Specific render pipelines can implement specific graph features.
@@ -3151,9 +4200,106 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.8
+        - 0.1.9
+        - 0.1.17
+        - 1.0.0-beta
+        - 1.1.1-preview
+        - 1.1.2-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5-preview
+        - 1.1.6-preview
+        - 1.1.8-preview
+        - 1.1.9-preview
+        - 2.0.1-preview
+        - 2.0.3-preview
+        - 2.0.4-preview
+        - 2.0.4-preview.1
+        - 2.0.5-preview
+        - 2.0.6-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 3.0.0-preview
+        - 3.1.0-preview
+        - 3.3.0-preview
+        - 4.0.0-preview
+        - 4.0.1-preview
+        - 4.1.0-preview
+        - 4.2.0-preview
+        - 4.3.0-preview
+        - 4.6.0-preview
+        - 4.8.0-preview
+        - 4.9.0-preview
+        - 4.10.0-preview
+        - 5.0.0-preview
+        - 5.1.0
+        - 5.2.0
+        - 5.2.1
+        - 5.2.2
+        - 5.2.3
+        - 5.3.1
+        - 5.6.1
+        - 5.7.2
+        - 5.8.2
+        - 5.9.0
+        - 5.10.0
+        - 5.13.0
+        - 5.16.1
+        - 6.5.2
+        - 6.5.3
+        - 6.7.1
+        - 6.9.0
+        - 6.9.1
+        - 6.9.2
+        - 7.0.0
+        - 7.0.1
+        - 7.1.1
+        - 7.1.2
+        - 7.1.5
+        - 7.1.6
+        - 7.1.7
+        - 7.1.8
+        - 7.2.0
+        - 7.2.1
+        - 7.3.1
+        - 7.4.1
+        - 7.4.2
+        - 7.4.3
+        - 7.5.1
+        - 7.5.2
+        - 7.5.3
+        - 7.6.0
+        - 7.7.0
+        - 7.7.1
+        - 8.0.1
+        - 8.1.0
+        - 8.2.0
+        - 8.3.1
+        - 9.0.0-preview.14
+        - 9.0.0-preview.34
+        - 9.0.0-preview.55
+        - 9.0.0-preview.72
+        - 10.0.0-preview.27
+        - 10.1.0
+        - 10.2.0
+        - 10.2.1
+        - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
+        - 10.5.0
         - 10.5.1
+        - 10.6.0
+        - 10.7.0
+        - 10.8.0
+        - 10.8.1
+        - 10.9.0
+        - 10.10.0
+        - 10.10.1
         compatible:
         - 10.5.1
+        - 10.6.0
         verified: 10.5.1
       dependencies:
       - name: com.unity.render-pipelines.core
@@ -3180,16 +4326,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637605793850000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/Graphics.git
+        url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: 73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576
         path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
@@ -3221,10 +4367,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        - 3.1.0
+        - 3.2.0
+        - 3.2.1
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3240,7 +4416,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3262,17 +4438,65 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: 2D Common is a package that contains shared functionalities that
         are used by most of the other 2D packages.
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
+        - 4.0.2
         - 4.0.3
+        - 4.0.4
+        - 4.1.0
+        - 4.2.0
+        - 4.2.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 6.0.0-pre.2
+        - 6.0.0-pre.3
+        - 6.0.0-pre.4
+        - 6.0.0
+        - 6.0.1
+        - 6.0.2
+        - 6.0.3
+        - 6.0.4
+        - 6.0.5
+        - 6.0.6
+        - 7.0.0-pre.3
+        - 7.0.0-pre.4
+        - 7.0.0
+        - 7.0.1
+        - 7.0.2
+        - 7.0.3
+        - 8.0.0-pre.1
+        - 8.0.0-pre.2
+        - 8.0.0
+        - 8.0.1
+        - 9.0.0-pre.1
+        - 9.0.0-pre.2
+        - 9.0.0
         compatible:
         - 4.0.3
-        verified: 4.0.3
+        - 4.0.4
+        verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
         version: 1.0.0
@@ -3301,11 +4525,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637408843940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3327,17 +4551,38 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
         splines) in EditorWindows and the SceneView."
       status: 4
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 2.1.1
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
         - 4.0.1
+        - 4.0.2
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
+        - 5.0.1
+        - 5.0.2
         compatible:
         - 4.0.1
-        verified: 4.0.1
+        - 4.0.2
+        verified: 4.0.2
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3351,11 +4596,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637328350450000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3377,16 +4622,46 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: General search window for use in the Editor. First target use
         is for GraphView node search.
       status: 4
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
+        - 4.9.2
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -3401,11 +4676,11 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:

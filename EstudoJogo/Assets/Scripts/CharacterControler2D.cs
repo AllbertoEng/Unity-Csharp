@@ -39,6 +39,7 @@ public class CharacterControler2D : MonoBehaviour
             animator.SetFloat("lastHorizontal", horizontal);
             animator.SetFloat("lastVertical", vertical);
         }
+
     }
 
 

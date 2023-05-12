@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea7d9be859c1484dabad7d562c8ae52, type: 3}
+  m_Name: ChestCraft
+  m_EditorClassIdentifier: 
+  elements:
+  - item: {fileID: 11400000, guid: 8427a4b6fd6ae9149983cc174431ff04, type: 2}
+    count: 10
+  output:
+    item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
+    count: 1

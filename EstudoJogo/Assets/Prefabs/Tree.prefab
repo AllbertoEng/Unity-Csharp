@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1753205982242350755, guid: 35074fb9b6b2c8d43a2523e9b4099942, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   spread: 1.5
   dropCount: 25
   itemCountInOneDrop: 1
-  item: {fileID: 11400000, guid: 55909293fb2bc9f43bda62310b186102, type: 2}
+  item: {fileID: 11400000, guid: 8427a4b6fd6ae9149983cc174431ff04, type: 2}
   resourceNodeType: 1
 --- !u!68 &4241040043990632564
 EdgeCollider2D:

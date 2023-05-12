@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93be4838640be74a9dd6155bb627217, type: 3}
+  m_Name: CatCrop
+  m_EditorClassIdentifier: 
+  timeToGrow: 5
+  yield: {fileID: 11400000, guid: 882270c6ee52d7f4a9a8048df382f50d, type: 2}
+  count: 2
+  sprites:
+  - {fileID: 119718298744909857, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
+  - {fileID: -6990237526758836516, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
+  - {fileID: -6982419531581832801, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
+  - {fileID: 8302319321948046102, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
+  - {fileID: 936235020905742126, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
+  growthStageTime: 0100000002000000030000000400000005000000

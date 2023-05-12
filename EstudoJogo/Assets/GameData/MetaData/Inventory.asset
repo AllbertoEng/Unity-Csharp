@@ -13,35 +13,39 @@ MonoBehaviour:
   m_Name: Inventory
   m_EditorClassIdentifier: 
   slots:
-  - item: {fileID: 11400000, guid: 8427a4b6fd6ae9149983cc174431ff04, type: 2}
-    count: 1593
-  - item: {fileID: 11400000, guid: c7a84133fb599a34db61050410567124, type: 2}
-    count: 1
-  - item: {fileID: 11400000, guid: 49353f20304928d4cbc667f1e80d013a, type: 2}
-    count: 669
+  - item: {fileID: 11400000, guid: 70da8a0f277b5e341a7e6f60fd30601e, type: 2}
+    count: 1995
+  - item: {fileID: 11400000, guid: 55909293fb2bc9f43bda62310b186102, type: 2}
+    count: 999
+  - item: {fileID: 11400000, guid: 421fcad88f4a84f4daf59aa8c76e85d0, type: 2}
+    count: 120
+  - item: {fileID: 11400000, guid: 3b4d1cb5983836d449178fb4c880dcbf, type: 2}
+    count: 0
   - item: {fileID: 11400000, guid: 47a63db65b26cf94ea8c40c6d782fcf5, type: 2}
     count: 0
-  - item: {fileID: 11400000, guid: 3b4d1cb5983836d449178fb4c880dcbf, type: 2}
+  - item: {fileID: 11400000, guid: f7ea3380e373eb64fbdc37d20a8527a1, type: 2}
+    count: 9999
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 0}
+    count: 0
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
     count: 0
   - item: {fileID: 11400000, guid: 0c008f2462e872e44ac7306c71b07ca0, type: 2}
     count: 0
-  - item: {fileID: 11400000, guid: 55909293fb2bc9f43bda62310b186102, type: 2}
-    count: 1579
-  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: 8427a4b6fd6ae9149983cc174431ff04, type: 2}
+    count: 860
+  - item: {fileID: 11400000, guid: 8427a4b6fd6ae9149983cc174431ff04, type: 2}
+    count: 70
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
     count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 11400000, guid: 1a9a711ddcce69e4faa00794ae27e3c1, type: 2}
-    count: 560
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
+  - item: {fileID: 11400000, guid: 49622ea3b24896040bbcefab94ef905b, type: 2}
     count: 0
   - item: {fileID: 0}
     count: 0
@@ -81,7 +85,4 @@ MonoBehaviour:
     count: 0
   - item: {fileID: 0}
     count: 0
-  - item: {fileID: 0}
-    count: 0
-  - item: {fileID: 0}
-    count: 0
+  isDirty: 0

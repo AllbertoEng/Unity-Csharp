@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3a703efe2f6238f48a34c26445dcdf39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7665296626987888934
+    second: Overworld_cenario_casa_0
+  - first:
+      213: -4397356787195347917
+    second: Overworld_cenario_casa_1
+  - first:
+      213: -3183080344731776773
+    second: Overworld_cenario_casa_2
+  - first:
+      213: -5002983386358327328
+    second: Overworld_cenario_casa_3
+  - first:
+      213: 2452318157803669448
+    second: Overworld_cenario_casa_4
+  - first:
+      213: 714757558022822884
+    second: Overworld_cenario_casa_5
+  - first:
+      213: 3597263442087750807
+    second: Overworld_cenario_casa_6
+  - first:
+      213: -9203434673320717518
+    second: Overworld_cenario_casa_7
+  - first:
+      213: 12261752364274149
+    second: Overworld_cenario_casa_8
+  - first:
+      213: 2793240419858063979
+    second: Overworld_cenario_casa_9
+  - first:
+      213: 6669707627222850079
+    second: Overworld_cenario_casa_10
+  - first:
+      213: -2998356916131556508
+    second: casa
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 529
+        width: 224
+        height: 416
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49405244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 135, y: 75.5}
+        - {x: 135, y: 91.5}
+        - {x: 287, y: 91.5}
+        - {x: 287, y: 75.5}
+      - - {x: 141, y: 11.5}
+        - {x: 141, y: 26.5}
+        - {x: 288, y: 26.5}
+        - {x: 288, y: 11.5}
+      - - {x: 133, y: 91.5}
+        - {x: 133, y: 190.5}
+        - {x: 180, y: 190.5}
+        - {x: 180, y: 91.5}
+      - - {x: 241, y: -139.5}
+        - {x: 205, y: -106.5}
+        - {x: 154, y: 11.5}
+        - {x: 285, y: 3.5}
+        - {x: 288, y: -151.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade036a84556f9590800000000000000
+      internalID: -7665296626987888934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 576
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5278, y: 0.522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 267, y: -136}
+        - {x: -287, y: -131}
+        - {x: -288, y: 160}
+        - {x: -288, y: -135}
+        - {x: 281, y: -142}
+        - {x: 288, y: 67}
+        - {x: 283, y: 68}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c719cdc4379f2c0800000000000000
+      internalID: -4397356787195347917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 480
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 135, y: -38}
+        - {x: 143, y: -42}
+        - {x: 146.09, y: -37.880005}
+        - {x: 149, y: -34}
+        - {x: 156, y: -28}
+        - {x: 138, y: -3}
+        - {x: 144, y: 4}
+        - {x: 158.5, y: 6}
+        - {x: 171, y: 3}
+        - {x: 177, y: 6}
+        - {x: 178, y: 16}
+        - {x: 190, y: 7}
+        - {x: 197, y: 7}
+        - {x: 200, y: 13}
+        - {x: 223.5, y: 23}
+        - {x: 228.5, y: 49}
+        - {x: -228.5, y: 49}
+        - {x: -240, y: -49}
+        - {x: -234, y: -22}
+        - {x: -207, y: -24}
+        - {x: -204, y: -12}
+        - {x: -194, y: -23}
+        - {x: -183, y: -15}
+        - {x: -184, y: -9}
+        - {x: -174, y: -9}
+        - {x: -172, y: -14}
+        - {x: -165.5, y: -11}
+        - {x: -158, y: -9}
+        - {x: -148, y: -13}
+        - {x: -141, y: -12}
+        - {x: -141, y: -5}
+        - {x: -132.19994, y: -10.893311}
+        - {x: -121, y: -10}
+        - {x: -115, y: -24}
+        - {x: -99.5, y: -26}
+        - {x: -91, y: -26}
+        - {x: -83, y: -2}
+        - {x: -78, y: -4}
+        - {x: -69, y: -22}
+        - {x: -61, y: -27}
+        - {x: -47, y: -4}
+        - {x: 15.5, y: -6}
+        - {x: 9, y: -19}
+        - {x: 32.5, y: -24}
+        - {x: 49, y: -16}
+        - {x: 65, y: -32}
+        - {x: 72, y: -41}
+        - {x: 75, y: -38}
+        - {x: 76, y: -31}
+        - {x: 82, y: -32}
+        - {x: 87, y: -38}
+        - {x: 107, y: -42}
+        - {x: 114, y: -33}
+        - {x: 120, y: -14}
+        - {x: 125, y: -19}
+        - {x: 127, y: -29}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80cb88a4d63d3d0800000000000000
+      internalID: -3183080344731776773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 122
+        width: 55
+        height: 31
+      alignment: 9
+      pivot: {x: 0.41672087, y: 0.46032125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -9.5}
+        - {x: -11.5, y: -8.5}
+        - {x: -18.5, y: -1.5}
+        - {x: -19.5, y: 1.5}
+        - {x: 12.5, y: -2.5}
+        - {x: 12.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e75ee6fd15d19ab0800000000000000
+      internalID: -5002983386358327328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7c0202f52680220800000000000000
+      internalID: 2452318157803669448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 101
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.37118244, y: 0.3594725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebd97a46345be900800000000000000
+      internalID: 714757558022822884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 14
+        width: 310
+        height: 87
+      alignment: 9
+      pivot: {x: 0.44503143, y: 1.082491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ca32d9a0c0ce130800000000000000
+      internalID: 3597263442087750807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 686
+        width: 352
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 32, y: 110}
+        - {x: 56, y: 88}
+        - {x: 39, y: 62}
+        - {x: 19, y: 34}
+        - {x: 25, y: 11}
+        - {x: 177, y: 14}
+        - {x: 177, y: 113}
+      - - {x: 26, y: -4}
+        - {x: 26, y: 12}
+        - {x: 177, y: 12}
+        - {x: 177, y: -3}
+      - - {x: 30, y: -69}
+        - {x: 30, y: -54}
+        - {x: 176, y: -54}
+        - {x: 176, y: -69}
+      - - {x: 54, y: -110}
+        - {x: 44, y: -101}
+        - {x: 57, y: -82}
+        - {x: 48, y: -70}
+        - {x: 59, y: -71}
+        - {x: 59, y: -110}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233943f2de4d64080800000000000000
+      internalID: -9203434673320717518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 526
+        width: 226
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 83, y: -34.5}
+        - {x: 54, y: -20.5}
+        - {x: 6, y: 42.5}
+        - {x: -7, y: 78.5}
+        - {x: 113, y: 78.5}
+        - {x: 113, y: -37.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e11ff1bfff8b2000800000000000000
+      internalID: 12261752364274149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 529
+        width: 128
+        height: 32
+      alignment: 9
+      pivot: {x: 0.38, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6227e5dc5593c620800000000000000
+      internalID: 2793240419858063979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_cenario_casa_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 153
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6153817, y: 0.36660433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -13}
+        - {x: -3, y: -4}
+        - {x: 14, y: -4}
+        - {x: 14, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ad454dfbf8f8c50800000000000000
+      internalID: 6669707627222850079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1050
+        width: 160
+        height: 219
+      alignment: 9
+      pivot: {x: 0.50278866, y: 0.10685834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 29, y: -87.5}
+        - {x: 1, y: -87.5}
+        - {x: -30, y: -87.5}
+        - {x: -47, y: -75.5}
+        - {x: -47, y: -48.5}
+        - {x: 46, y: -48.5}
+        - {x: 46, y: -74.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46394205542b366d0800000000000000
+      internalID: -2998356916131556508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
