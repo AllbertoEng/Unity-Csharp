@@ -7,10 +7,12 @@ public class CharacterControler2D : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
     [SerializeField] float speed = 2f;
+    [SerializeField] float runSpeed = 5f;
     Vector2 motionVector;
     public Vector2 lastMotionVector;
     Animator animator;
     public bool moving;
+    public bool running;
 
     void Awake()
     {
@@ -20,10 +22,20 @@ public class CharacterControler2D : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            running = true;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            running = false;
+        }
+
         float horizontal = Input.GetAxisRaw("Horizontal"),
             vertical = Input.GetAxisRaw("Vertical");
 
-        motionVector = new Vector2(horizontal, vertical);
+        motionVector.x = horizontal;
+        motionVector.y = vertical;
 
         moving = horizontal != 0 || vertical != 0;
         animator.SetBool("moving", moving);
@@ -50,6 +62,6 @@ public class CharacterControler2D : MonoBehaviour
 
     private void Move()
     {
-        rigidbody2d.velocity = motionVector * speed;
+        rigidbody2d.velocity = motionVector * (running ? runSpeed : speed);
     }
 }

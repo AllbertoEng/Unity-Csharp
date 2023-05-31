@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CatSeedItem
   m_EditorClassIdentifier: 
   Name: Cat Seed
+  id: 1
   stackable: 1
   icon: {fileID: 21300000, guid: 21eb0f6610fcf17428aa7ee59571a45e, type: 3}
   onAction: {fileID: 0}
@@ -20,3 +21,4 @@ MonoBehaviour:
   onItemUsed: {fileID: 11400000, guid: 324b8ecce33d0f04d85dae6d6abbcd0b, type: 2}
   crop: {fileID: 11400000, guid: 570a265aead9e4048acd37a211839895, type: 2}
   iconHighlight: 1
+  itemPrefab: {fileID: 0}

@@ -8,14 +8,15 @@ using UnityEngine.UI;
 public class DayTimeController : MonoBehaviour
 {
     const float secondsInDay = 86400f;
-    const float phaseLenght = 900f; // 15 minutos
+    const float phaseLenght = 60; // 1 minuto for each action
+    const float phasesInDay = 1440; // (secondsInDay/phaseLenght)
 
     [SerializeField] Color nightLightColor;
     [SerializeField] AnimationCurve nightTimeCurve;
     [SerializeField] Color dayLightColor = Color.white;
 
     float time = 43200;
-    [SerializeField] float timeScale = 600f;
+    [SerializeField] float timeScale = 60f;
 
     [SerializeField] Text text;
     [SerializeField] Light2D globalLight;
@@ -62,21 +63,38 @@ public class DayTimeController : MonoBehaviour
         }
 
         TimeAgents();
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            SkipTime(hours: 4);
+        }
     }
 
-    int oldPhase = 0;
+    int oldPhase = -1;
     private void TimeAgents()
     {
-        int currentPhase = Convert.ToInt32(time / phaseLenght);
-
-        if (oldPhase != currentPhase)
+        if (oldPhase == -1)
         {
-            oldPhase = currentPhase;
+            oldPhase = CalculatePhase();
+        }
+
+        //At each phaseLenght executes the delegate
+        //EX: phaseLenght at 60, means that every minute ingame the delegate will execute
+        int currentPhase = CalculatePhase();
+
+        while (oldPhase < currentPhase)
+        {
+            oldPhase += 1;
             for (int i = 0; i < agents.Count; i++)
             {
                 agents[i].Invoke();
             }
-        }        
+        }       
+    }
+
+    private int CalculatePhase()
+    {
+        return Convert.ToInt32(time / phaseLenght) + Convert.ToInt32(days * phaseLenght);
     }
 
     private void Daylight()
@@ -94,7 +112,16 @@ public class DayTimeController : MonoBehaviour
 
     private void NextDay()
     {
-        time = 0;
+        time -= secondsInDay;
         days += 1;
+    }
+
+    public void SkipTime(float seconds = 0, float minute = 0, float hours = 0)
+    {
+        float timeToSkip = seconds;
+        timeToSkip += minute * 60;
+        timeToSkip += hours * 3600;
+
+        time += timeToSkip;
     }
 }

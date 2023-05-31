@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Cenoura
   m_EditorClassIdentifier: 
   Name: Cenoura
+  id: 2
   stackable: 1
   icon: {fileID: 1896448605622500888, guid: 571ccc10d372a7e4ab24886764a9a64d, type: 3}
   onAction: {fileID: 0}
   onTileMapAction: {fileID: 0}
   onItemUsed: {fileID: 0}
   crop: {fileID: 0}
+  iconHighlight: 0
+  itemPrefab: {fileID: 0}

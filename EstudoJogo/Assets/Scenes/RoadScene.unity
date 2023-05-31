@@ -304,6 +304,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
+      propertyPath: targetPosition.x
+      value: 0.827
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
+      propertyPath: targetPosition.y
+      value: 6.592
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
       propertyPath: sceneNameToTransition
       value: MainScene
       objectReference: {fileID: 0}
@@ -496,7 +504,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -506,7 +514,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -516,7 +524,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -526,7 +534,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -539,10 +547,10 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 6500ccad536d5ca408b89298b325a881, type: 2}
   m_TileSpriteArray:
+  - m_RefCount: 4
+    m_Data: {fileID: 6389272540002557646, guid: 63e89dbab9fee174e86b1669dad4a3a8, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 4
-    m_Data: {fileID: -3328804424743113820, guid: 63e89dbab9fee174e86b1669dad4a3a8, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:

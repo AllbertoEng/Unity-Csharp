@@ -11,7 +11,8 @@ public class PlaceableObjectsManager : MonoBehaviour
 
     private void Start()
     {
-        GameManager.instance.GetComponent<PlaceableObjectsReferenceManager>().placeableObjectsManager = this;
+        if (GameManager.instance != null)
+            GameManager.instance.GetComponent<PlaceableObjectsReferenceManager>().placeableObjectsManager = this;
         VizualizeMap();
     }
 
@@ -19,6 +20,16 @@ public class PlaceableObjectsManager : MonoBehaviour
     {
         for (int i = 0; i < placeableObjectsContainer.placeableObjects.Count; i++)
         {
+            if (placeableObjectsContainer.placeableObjects[i].targetObject == null)
+                continue;
+
+            IPersistent persistent = placeableObjectsContainer.placeableObjects[i].targetObject.GetComponent<IPersistent>();
+            if (persistent != null)
+            {
+                string jsonString = persistent.Read();
+                placeableObjectsContainer.placeableObjects[i].objectState = jsonString;
+            }
+
             placeableObjectsContainer.placeableObjects[i].targetObject = null;
         }
     }
@@ -48,10 +59,19 @@ public class PlaceableObjectsManager : MonoBehaviour
     private void Vizualizeitem(PlaceableObject placeableObject)
     {
         GameObject go = Instantiate(placeableObject.placedItem.itemPrefab);
+        go.transform.parent = transform;
+
+
         go.transform.position = (targetTilemap.CellToWorld(placeableObject.positionOnGrid) + targetTilemap.cellSize / 2)
             - Vector3.forward * 0.1f;
 
         placeableObject.targetObject = go.transform;
+
+        IPersistent persistent = go.GetComponent<IPersistent>();
+        if (persistent != null)
+        {
+            persistent.Load(placeableObject.objectState);
+        }
     }
 
     public bool Check(Vector3Int position)

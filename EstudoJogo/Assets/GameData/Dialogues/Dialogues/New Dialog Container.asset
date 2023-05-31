@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: New Dialog Container
   m_EditorClassIdentifier: 
   line:
-  - First line teste teste teste teste teste teste X
-  - Secon line teste teste teste teste teste teste teste teste teste teste X
-  - Third line teste teste teste teste teste teste teste teste teste teste teste
-    teste teste teste teste X
+  - Hi
+  - Thank u for testing my game
+  - Thats a study project for my future games
   actor: {fileID: 11400000, guid: 009dc69cf47fcec41bb34c6649cdfcf9, type: 2}

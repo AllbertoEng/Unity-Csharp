@@ -10,6 +10,7 @@ public class IconHighlight : MonoBehaviour
     Vector3 targetPosistion;
     [SerializeField] Tilemap targetTilemap;
     SpriteRenderer spriteRenderer;
+    [SerializeField] Tilemap MarkerTilemap;
 
     bool canSelect;
     bool show;
@@ -19,6 +20,7 @@ public class IconHighlight : MonoBehaviour
         set { 
             canSelect = value;
             gameObject.SetActive(canSelect && show);
+            MarkerTilemap.gameObject.SetActive(canSelect && show);
         } 
     }
 
@@ -28,6 +30,7 @@ public class IconHighlight : MonoBehaviour
         {
             show = value;
             gameObject.SetActive(canSelect && show);
+            MarkerTilemap.gameObject.SetActive(canSelect && show);
         }
     }
 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93be4838640be74a9dd6155bb627217, type: 3}
   m_Name: CatCrop
   m_EditorClassIdentifier: 
-  timeToGrow: 5
+  timeToGrow: 50
   yield: {fileID: 11400000, guid: 882270c6ee52d7f4a9a8048df382f50d, type: 2}
   count: 2
   sprites:
@@ -21,4 +21,4 @@ MonoBehaviour:
   - {fileID: -6982419531581832801, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
   - {fileID: 8302319321948046102, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
   - {fileID: 936235020905742126, guid: 9ab269ed7b3846246acc6343336486a7, type: 3}
-  growthStageTime: 0100000002000000030000000400000005000000
+  growthStageTime: 0a000000140000001e0000002800000032000000

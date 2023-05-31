@@ -19,6 +19,7 @@ public class ToolsCharacterController : MonoBehaviour
     [SerializeField] float maxDistance = 4f;
     [SerializeField] ToolAction onTilePickUp;
     [SerializeField] IconHighlight iconHighlight;
+    AttackController attackController;
 
     Vector3Int selectedTile;
     bool selectable;
@@ -29,10 +30,13 @@ public class ToolsCharacterController : MonoBehaviour
         rgbd2d = GetComponent<Rigidbody2D>();
         toolBarController = GetComponent<ToolBarController>();
         animator = GetComponent<Animator>();
+        attackController = GetComponent<AttackController>();
     }
 
     private void Update()
     {
+        
+
         SelectTile();
         CanSelectCheck();
         Marker();
@@ -44,13 +48,28 @@ public class ToolsCharacterController : MonoBehaviour
         }
 
         if (Input.GetMouseButton(0))
-        {            
-            if (UseToolWorld())                           
-                return;            
+        {
+            WeaponAction();
+            if (UseToolWorld())
+                return;
             UseToolGrid();
         }
         delay = delayUse;
     }
+
+    private void WeaponAction()
+    {
+        Item item = toolBarController.GetItem;
+        if (item == null)
+            return;
+
+        if (!item.isWeapon)
+            return;
+
+        attackController.Attack(item.damage, character.lastMotionVector);
+
+    }
+
     private void SelectTile()
     {
         selectedTile = tileMapReadController.GetGridPosition(Input.mousePosition, true);
@@ -78,7 +97,7 @@ public class ToolsCharacterController : MonoBehaviour
         Item item = toolBarController.GetItem;
         if (item == null)
             return false;
-        if(item.onAction == null)
+        if (item.onAction == null)
             return false;
 
         animator.SetTrigger("act");
@@ -106,7 +125,7 @@ public class ToolsCharacterController : MonoBehaviour
 
             if (complete)
             {
-                if(item.onItemUsed != null)
+                if (item.onItemUsed != null)
                     item.onItemUsed.OnItemUsed(item, GameManager.instance.inventoryContainer);
             }
         }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Chest
   m_EditorClassIdentifier: 
   Name: Chest
+  id: 4
   stackable: 0
   icon: {fileID: 9116851946686450653, guid: c551521f32fefc04291a059ff0148cd8, type: 3}
   onAction: {fileID: 0}
