@@ -52,7 +52,7 @@ public class TilemapCropsManager : TimeAgent
         }
     }
 
-    public void Tick()
+    public void Tick(DayTimeController dayTimeController)
     {
         
         if (targetTilemap == null)
@@ -88,7 +88,7 @@ public class TilemapCropsManager : TimeAgent
             }
                    
         }
-    }
+    }    
 
     internal bool Check(Vector3Int position)
     {
@@ -101,6 +101,13 @@ public class TilemapCropsManager : TimeAgent
             return;
         CreatePlowedTile(position);
     }
+
+    internal void RemovePlow(Vector3Int position)
+    {
+        if (!Check(position))
+            return;
+        RemovePlowedTile(position);
+    }    
 
     public void Seed(Vector3Int position, Crop toSeed)
     {
@@ -150,6 +157,22 @@ public class TilemapCropsManager : TimeAgent
         VisualizeTile(crop);
 
         targetTilemap.SetTile(position, plowed);
+    }
+
+    private void RemovePlowedTile(Vector3Int position)
+    {
+        CropTile cropTile = container.Get(position);
+
+        if (cropTile.crop != null)
+        {
+            if (cropTile.Complete)
+                PickUp(position);
+            else
+                cropTile.Harvested();
+        }
+
+        container.Remove(cropTile);
+        targetTilemap.SetTile(position, null);
     }
 
     internal void PickUp(Vector3Int gridPosition)

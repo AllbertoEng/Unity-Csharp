@@ -48,7 +48,7 @@ public class ItemConverterInteract : Interactable, IPersistent
         }
     }
 
-    private void ItemConverterProcess()
+    private void ItemConverterProcess(DayTimeController dayTimeController)
     {
         if (data.itemSlot == null)
             return;

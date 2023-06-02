@@ -77,4 +77,14 @@ public class CropsManager : MonoBehaviour
         }
         cropsManager.Plow(position);
     }
+
+    public void RemovePlow(Vector3Int position)
+    {
+        if (cropsManager == null)
+        {
+            Debug.LogWarning("No tilemap crops manager are referenced in the crops manager");
+            return;
+        }
+        cropsManager.RemovePlow(position);
+    }
 }

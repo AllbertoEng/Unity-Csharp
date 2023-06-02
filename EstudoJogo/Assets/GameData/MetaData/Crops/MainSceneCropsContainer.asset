@@ -12,4 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017c52f9425d83d45ac065f71c7a8e95, type: 3}
   m_Name: MainSceneCropsContainer
   m_EditorClassIdentifier: 
-  crops: []
+  crops:
+  - growTimer: 4
+    growStage: 4
+    crop: {fileID: 11400000, guid: 820984303ae6c454091f4f9e78b1ea95, type: 2}
+    renderer: {fileID: 0}
+    damage: 0
+    position: {x: -8, y: 3, z: 0}
+  - growTimer: 4
+    growStage: 4
+    crop: {fileID: 11400000, guid: 820984303ae6c454091f4f9e78b1ea95, type: 2}
+    renderer: {fileID: 0}
+    damage: 0
+    position: {x: -7, y: 3, z: 0}
+  - growTimer: 50
+    growStage: 5
+    crop: {fileID: 11400000, guid: 570a265aead9e4048acd37a211839895, type: 2}
+    renderer: {fileID: 0}
+    damage: 0
+    position: {x: -6, y: 3, z: 0}
+  - growTimer: 50
+    growStage: 5
+    crop: {fileID: 11400000, guid: 570a265aead9e4048acd37a211839895, type: 2}
+    renderer: {fileID: 0}
+    damage: 0
+    position: {x: -5, y: 3, z: 0}

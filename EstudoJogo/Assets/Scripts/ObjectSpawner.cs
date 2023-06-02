@@ -35,7 +35,7 @@ public class ObjectSpawner : MonoBehaviour
         }
         else
         {
-            Spawn();
+            Spawn(null);
             Destroy(gameObject);
         }
         
@@ -46,7 +46,7 @@ public class ObjectSpawner : MonoBehaviour
         spawnedObjects.Remove(spawnedObject);
     }
 
-    public void Spawn()
+    public void Spawn(DayTimeController dayTimeController)
     {
         if (UnityEngine.Random.value > probability)
             return;

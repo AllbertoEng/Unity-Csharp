@@ -24,7 +24,7 @@ public class DayTimeController : MonoBehaviour
 
     List<TimeAgent> agents;
 
-    private int days;
+    public int days;
 
     float Hours 
     {
@@ -88,7 +88,7 @@ public class DayTimeController : MonoBehaviour
             oldPhase += 1;
             for (int i = 0; i < agents.Count; i++)
             {
-                agents[i].Invoke();
+                agents[i].Invoke(this);
             }
         }       
     }

@@ -17,4 +17,9 @@ public class CropsContainer : ScriptableObject
     {
         crops.Add(crop);
     }
+
+    public void Remove(CropTile cropTile)
+    {
+        crops.Remove(cropTile);
+    }
 }

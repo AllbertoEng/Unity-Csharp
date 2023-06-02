@@ -606,15 +606,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3307350123725140107, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.13
+      value: -18.13
       objectReference: {fileID: 0}
     - target: {fileID: 3307350123725140107, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.58
+      value: 3.58
       objectReference: {fileID: 0}
     - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
       propertyPath: transitionType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
+      propertyPath: targetPosition.x
+      value: -12.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
+      propertyPath: targetPosition.y
+      value: 7.6
       objectReference: {fileID: 0}
     - target: {fileID: 3307350124625532596, guid: 8b333516fbde8394a9f826a82f06f877, type: 3}
       propertyPath: sceneNameToTransition
