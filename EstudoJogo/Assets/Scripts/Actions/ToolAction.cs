@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ToolAction : ScriptableObject
 {
+    public int energyCost = 0;
     public virtual bool OnApply(Vector2 wordPoint)
     {
         Debug.LogWarning("OnApply is not implemented");

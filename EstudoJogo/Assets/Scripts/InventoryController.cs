@@ -9,6 +9,7 @@ public class InventoryController : MonoBehaviour
     [SerializeField] GameObject statusPanel;
     [SerializeField] GameObject toolbar;
     [SerializeField] GameObject additionalPanel;
+    [SerializeField] GameObject storePanel;
 
     private void Update()
     {
@@ -27,6 +28,7 @@ public class InventoryController : MonoBehaviour
         statusPanel.SetActive(true);
         toolbar.SetActive(false);
         additionalPanel.SetActive(true);
+        storePanel.SetActive(false);
     }
 
     public void Close()
@@ -35,5 +37,6 @@ public class InventoryController : MonoBehaviour
         statusPanel.SetActive(false);
         toolbar.SetActive(true);
         additionalPanel.SetActive(false);
+        storePanel.SetActive(false);
     }
 }

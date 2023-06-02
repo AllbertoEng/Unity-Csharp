@@ -12,12 +12,13 @@ public class GameManager : MonoBehaviour
         // SceneManager.LoadSceneAsync("MainScene", LoadSceneMode.Additive);
     }
 
-    [SerializeField] public GameObject player;
-    [SerializeField] public ItemContainer inventoryContainer;
-    [SerializeField] public ItemDragAndDropController dragAndDropController;
-    [SerializeField] public DayTimeController timeController;
-    [SerializeField] public DialogueSystem dialogueSystem;
-    [SerializeField] public PlaceableObjectsReferenceManager placeableObjects;
-    [SerializeField] public ItemList ItemDB;
-    [SerializeField] public OnScreenMessageSystem messageSystem;
+    public GameObject player;
+    public ItemContainer inventoryContainer;
+    public ItemDragAndDropController dragAndDropController;
+    public DayTimeController timeController;
+    public DialogueSystem dialogueSystem;
+    public PlaceableObjectsReferenceManager placeableObjects;
+    public ItemList ItemDB;
+    public OnScreenMessageSystem messageSystem;
+    public ScreenTint screenTint;
 }

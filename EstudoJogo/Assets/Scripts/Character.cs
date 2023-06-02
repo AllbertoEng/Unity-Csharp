@@ -33,7 +33,7 @@ public class Stat
     }
 }
 
-public class Character : MonoBehaviour
+public class Character : MonoBehaviour, IDamageable
 {
     public Stat hp;
     public Stat stamina;
@@ -43,6 +43,14 @@ public class Character : MonoBehaviour
     public bool isDead;
     public bool isExhausted;
 
+    DisableControl disableControl;
+    PlayerRespawn playerRespawn;
+
+    private void Awake()
+    {
+        disableControl = GetComponent<DisableControl>();
+        playerRespawn = GetComponent<PlayerRespawn>();
+    }
     public void Start()
     {
         UpdateHPBar();
@@ -56,11 +64,21 @@ public class Character : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        if (isDead)
+            return;
+
         hp.Subtract(amount);
-        if (hp.currVal <= 0)        
-            isDead = true;
-        
+        if (hp.currVal <= 0)
+            Dead();
+
         UpdateHPBar();
+    }
+
+    private void Dead()
+    {
+        isDead = true;
+        disableControl.DisableControls();
+        playerRespawn.StartRespawn();
     }
 
     private void UpdateHPBar()
@@ -68,13 +86,13 @@ public class Character : MonoBehaviour
         hpBar.Set(hp.currVal, hp.maxVal);
     }
 
-    public void Head(int amount)
+    public void Heal(int amount)
     {
         hp.Add(amount);
         UpdateHPBar();
     }
 
-    public void FullHealt()
+    public void FullHeal()
     {
         hp.SetToMax();
         UpdateHPBar();
@@ -82,12 +100,22 @@ public class Character : MonoBehaviour
 
     public void GetTired(int amount)
     {
+        if (isExhausted)
+            return;
+
         stamina.Subtract(amount);
-        if (stamina.currVal <= 0)        
-            isExhausted = true;
+        if (stamina.currVal <= 0)
+            Exhausted();
 
         UpdateStaminaBar();
 
+    }
+
+    private void Exhausted()
+    {
+        isExhausted = true;
+        disableControl.DisableControls();
+        playerRespawn.StartRespawn();
     }
 
     public void Rest(int amount)
@@ -100,5 +128,20 @@ public class Character : MonoBehaviour
     {
         stamina.SetToMax();
         UpdateStaminaBar();
+    }
+
+    public void CalculateDanage(ref int damage)
+    {
+        
+    }
+
+    public void ApplyDamage(int damage)
+    {
+        TakeDamage(damage);
+    }
+
+    public void CheckState()
+    {
+        
     }
 }

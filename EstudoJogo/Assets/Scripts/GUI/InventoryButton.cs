@@ -12,9 +12,16 @@ public class InventoryButton : MonoBehaviour, IPointerClickHandler
 
     int myIndex;
 
+    ItemPanel itemPanel;
+
     public void SetIndex(int index)
     {
         myIndex = index;
+    }
+
+    public void SetItemPanel(ItemPanel source)
+    {
+        this.itemPanel = source;
     }
 
     public void Set(ItemSlot slot)
@@ -41,8 +48,7 @@ public class InventoryButton : MonoBehaviour, IPointerClickHandler
     }
 
     public void OnPointerClick(PointerEventData eventData)
-    {
-        ItemPanel itemPanel = transform.parent.GetComponent<ItemPanel>();
+    {        
         itemPanel.OnClick(myIndex);
     }
 

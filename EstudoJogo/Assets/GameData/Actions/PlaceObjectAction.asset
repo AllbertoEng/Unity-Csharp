@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a122a6628f38e624199605169a9b0b22, type: 3}
   m_Name: PlaceObjectAction
   m_EditorClassIdentifier: 
+  energyCost: 5

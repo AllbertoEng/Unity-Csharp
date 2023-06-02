@@ -6,7 +6,8 @@ using UnityEngine.Tilemaps;
 
 public class ToolsCharacterController : MonoBehaviour
 {
-    CharacterControler2D character;
+    CharacterControler2D characterController2d;
+    Character character;
     ToolBarController toolBarController;
     Rigidbody2D rgbd2d;
     Animator animator;
@@ -20,13 +21,15 @@ public class ToolsCharacterController : MonoBehaviour
     [SerializeField] ToolAction onTilePickUp;
     [SerializeField] IconHighlight iconHighlight;
     AttackController attackController;
+    [SerializeField] int weaponEnergyCost = 5;
 
     Vector3Int selectedTile;
-    bool selectable;
+    bool selectable;    
 
     private void Awake()
     {
-        character = GetComponent<CharacterControler2D>();
+        character = GetComponent<Character>();
+        characterController2d = GetComponent<CharacterControler2D>();
         rgbd2d = GetComponent<Rigidbody2D>();
         toolBarController = GetComponent<ToolBarController>();
         animator = GetComponent<Animator>();
@@ -66,8 +69,15 @@ public class ToolsCharacterController : MonoBehaviour
         if (!item.isWeapon)
             return;
 
-        attackController.Attack(item.damage, character.lastMotionVector);
+        EnergyCost(weaponEnergyCost);
 
+        attackController.Attack(item.damage, characterController2d.lastMotionVector);
+
+    }
+
+    private void EnergyCost(int energyCost)
+    {
+        character.GetTired(energyCost);
     }
 
     private void SelectTile()
@@ -92,13 +102,15 @@ public class ToolsCharacterController : MonoBehaviour
 
     private bool UseToolWorld()
     {
-        Vector2 position = rgbd2d.position + character.lastMotionVector * offsetDistance;
+        Vector2 position = rgbd2d.position + characterController2d.lastMotionVector * offsetDistance;
 
         Item item = toolBarController.GetItem;
         if (item == null)
             return false;
         if (item.onAction == null)
             return false;
+
+        EnergyCost(item.onAction.energyCost);
 
         animator.SetTrigger("act");
         bool complete = item.onAction.OnApply(position);
@@ -119,6 +131,8 @@ public class ToolsCharacterController : MonoBehaviour
 
             if (item.onTileMapAction == null)
                 return;
+
+            EnergyCost(item.onTileMapAction.energyCost);
 
             animator.SetTrigger("act");
             bool complete = item.onTileMapAction.OnApplyToTileMap(selectedTile, tileMapReadController, item);

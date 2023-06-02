@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c91a792a2560f94a9d930946b4e4db0, type: 3}
   m_Name: Mine
   m_EditorClassIdentifier: 
+  energyCost: 3
   sizeOfInteractableArea: 1
   canHitNodesOfType: 02000000

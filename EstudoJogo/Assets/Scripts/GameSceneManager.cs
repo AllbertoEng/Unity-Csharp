@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cinemachine;
+using System;
 
 public class GameSceneManager : MonoBehaviour
 {
@@ -14,15 +15,32 @@ public class GameSceneManager : MonoBehaviour
     }
 
     [SerializeField] CameraConfiner cameraConfiner;
+
     [SerializeField] ScreenTint screenTint;
     string currentScene;
 
     AsyncOperation load;
     AsyncOperation unload;
 
+    bool respawnTransition;
+
     public void InitSwitchScene(string to, Vector3 targetPosition)
     {
         StartCoroutine(Transition(to, targetPosition));
+    }
+
+    internal void Respawn(Vector3 respawnPointPosition, string respawnPointScene)
+    {
+        respawnTransition = true;
+
+        if (currentScene != respawnPointScene)
+        {
+            InitSwitchScene(respawnPointScene, respawnPointPosition);
+        }
+        else
+        {
+            MoveCharacter(respawnPointPosition);
+        }
     }
 
     IEnumerator Transition(string to, Vector3 targetPosition)
@@ -58,12 +76,29 @@ public class GameSceneManager : MonoBehaviour
         unload = SceneManager.UnloadSceneAsync(currentScene);
 
         currentScene = to;
+        MoveCharacter(targetPosition);
 
+    }
+
+    private void MoveCharacter(Vector3 targetPosition)
+    {
         Transform playerTransform = GameManager.instance.player.transform;
 
         CinemachineBrain currentCamera = Camera.main.GetComponent<CinemachineBrain>();
         currentCamera.ActiveVirtualCamera.OnTargetObjectWarped(playerTransform, targetPosition - playerTransform.position);
 
         playerTransform.position = new Vector3(targetPosition.x, targetPosition.y, playerTransform.position.z);
+
+        if (respawnTransition)
+        {
+            Character character = playerTransform.GetComponent<Character>();
+
+            character.FullHeal();
+            character.FullRest();
+            character.isDead = false;
+            character.isExhausted = false;
+            playerTransform.GetComponent<DisableControl>().EnableControls();
+            respawnTransition = false;
+        }
     }
 }

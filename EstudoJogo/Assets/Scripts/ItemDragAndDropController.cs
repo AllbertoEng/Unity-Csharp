@@ -12,11 +12,24 @@ public class ItemDragAndDropController : MonoBehaviour
     RectTransform iconTransform;
     Image itemIconImage;
 
+    
+
     private void Start()
     {
         itemSlot = new ItemSlot();
         iconTransform = itemIcon.GetComponent<RectTransform>();
         itemIconImage = itemIcon.GetComponent<Image>();
+    }
+
+    internal bool CheckForSale()
+    {
+        if(itemSlot == null)
+            return false;
+
+        if (!itemSlot.item.CanBeSold)
+            return false;
+
+        return true;
     }
 
     private void Update()
@@ -99,7 +112,7 @@ public class ItemDragAndDropController : MonoBehaviour
 
     }
 
-    private void UpdateIcon()
+    public void UpdateIcon()
     {
         if (itemSlot.item == null)
         {

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,12 +15,22 @@ public class ItemPanel : MonoBehaviour
 
     public void Init()
     {
+        SetSourcePanel();
         SetIndex();
         Show();
     }
 
+    private void SetSourcePanel()
+    {
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].SetItemPanel(this);
+        }
+    }
+
     private void OnEnable()
     {
+        Clear();
         Show();
     }
 
@@ -33,6 +44,9 @@ public class ItemPanel : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (inventory == null)
+            return;
+
         if (inventory.isDirty)
         {
             Show();
@@ -42,6 +56,9 @@ public class ItemPanel : MonoBehaviour
 
     public virtual void Show()
     {
+        if (inventory == null)
+            return;
+
         for (int i = 0; i < inventory.slots.Count && i < buttons.Count; i++)
         {
             if (inventory.slots[i].item == null)
@@ -53,6 +70,17 @@ public class ItemPanel : MonoBehaviour
                 buttons[i].Set(inventory.slots[i]);
             }
         }
+    }
+    public void Clear()
+    {
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].Clean();
+        }
+    }
+    public void SetInventory(ItemContainer newInventory)
+    {
+        inventory = newInventory;
     }
 
     public virtual void OnClick(int id)

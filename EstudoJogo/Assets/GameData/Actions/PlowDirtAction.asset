@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3718597abd36a4da46885a75b4487a, type: 3}
   m_Name: PlowDirtAction
   m_EditorClassIdentifier: 
+  energyCost: 1
   canPlow:
   - {fileID: 11400000, guid: 6500ccad536d5ca408b89298b325a881, type: 2}
   onPlowUsed: {fileID: 0}

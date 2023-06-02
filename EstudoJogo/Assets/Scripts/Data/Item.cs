@@ -17,4 +17,6 @@ public class Item : ScriptableObject
     public GameObject itemPrefab;
     public bool isWeapon;
     public int damage = 10;
+    public int price = 100;
+    public bool CanBeSold = true;
 }
